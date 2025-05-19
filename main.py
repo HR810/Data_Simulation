@@ -46,7 +46,7 @@ def form_message(data, timestamp, project_id, site_id):
 # Margin of delay allowed (push only if scheduled_time has passed, within this margin)
 post_push_margin_sec = 5
 
-print("🔁 Starting strict-timing data publishing loop...")
+print(" Starting strict-timing data publishing loop...")
 try:
     while True:
         now = datetime.now()
